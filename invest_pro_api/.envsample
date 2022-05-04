@@ -1,0 +1,17 @@
+SECRET_KEY=django-insecure-f3tyee0bxetcnbopht%-v8na1yz%-ke+%-x*tqmr@-ok15yoe0
+DEBUG=True
+
+#Database settings
+ENGINE=django.db.backends.mysql
+NAME=ar_dash
+USER=joel
+PASSWORD=manager
+HOST=localhost
+PORT=3306
+
+#Email settings
+EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
+EMAIL_HOST=smtp.mailtrap.io
+EMAIL_HOST_USER=cf3ea4dcbfb9e1
+EMAIL_HOST_PASSWORD=cf1582f2649d11
+EMAIL_PORT=2525
